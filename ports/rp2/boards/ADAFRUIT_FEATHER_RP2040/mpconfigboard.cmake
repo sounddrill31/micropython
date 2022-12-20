@@ -1,1 +1,1 @@
-# cmake file for Adafruit Feather RP2040
+# cmake file for ADIY Fly Basic Board RP2040
