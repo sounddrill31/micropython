@@ -155,8 +155,7 @@ Download from releases and flash(WIP, will be improved if project works)
 
 https://datasheets.raspberrypi.com/pico/raspberry-pi-pico-python-sdk.pdf
 
-Page 4 (instructions will be improved, if not, open issues or pull requests.)
+Page 4 (instructions will be improved when project works, if not, open issues or pull requests.)
 
-but the last make command is replaced by 
-``make BOARD=ADIY_BASIC```
+
 
