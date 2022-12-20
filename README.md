@@ -164,3 +164,15 @@ make now becomes
 
 
 Run the following code in order, do not deviate unless you know what you are doing!
+
+```sudo apt update```
+
+```sudo apt install -y cmake gcc-arm-none-eabi libnewlib-arm-none-eabi build-essential```
+
+```make -C ports/rp2 submodules```
+
+```make -C mpy-cross```
+
+```cd ports/rp2```
+
+```make BOARD="ADAFRUIT_FEATHER_RP2040"```
