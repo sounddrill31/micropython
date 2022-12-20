@@ -160,6 +160,7 @@ to ensure that all required submodules are initialised.
 Run the following code in order, do not deviate unless you know what you are doing!
 
 Create a folder and enter it:
+
 ```cd ~/```
 
 ```mkdir pico```
@@ -167,22 +168,30 @@ Create a folder and enter it:
 ```cd pico```
 
 Get the files from github:
+
 ```git clone https://github.com/sounddrill31/micropython.git --branch master```
 
 
 Update packagelist(does not upgrade your system, just the list of latest packages):
+
 ```sudo apt update```
 
 Install essential tools:
+
 ```sudo apt install -y cmake gcc-arm-none-eabi libnewlib-arm-none-eabi build-essential```
 
 Some make shenanigans:
+
 ```make -C ports/rp2 submodules```
 
 ```make -C mpy-cross```
 
 Go into the right folder:
+
 ```cd ports/rp2```
 
 And the final bit of make tomfoolery:
+
 ```make BOARD="ADAFRUIT_FEATHER_RP2040"```
+
+Your files will be in ~/pico/micropython/ports/rp2/
