@@ -149,7 +149,7 @@ to ensure that all required submodules are initialised.
 
 # How to use for ADIY Fly Basic board(without sd card or wifi)
 
-Download from releases and flash(WIP, will be improved if project works)
+Download from releases and flash(WIP, will be improved)
 
 # Building for ADIY Fly Basic board(without sd card or wifi)
 
