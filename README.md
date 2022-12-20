@@ -149,7 +149,11 @@ to ensure that all required submodules are initialised.
 
 # How to use for ADIY Fly Basic board(without sd card or wifi)
 
-Download from releases and flash(WIP, will be improved)
+1. Download from https://github.com/sounddrill31/micropython/releases/download/Stable/firmware.uf2
+2. Put the board in bootsel mode
+3. copy downloaded firmware.uf2 to the RPI-RP2 drive.
+
+
 
 # Building for ADIY Fly Basic board(without sd card or wifi)
 
