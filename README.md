@@ -146,3 +146,8 @@ Before compiling a given port, use
     $ make submodules
 
 to ensure that all required submodules are initialised.
+
+# How to use for ADIY Fly Basic board(without sd card or wifi)
+
+# Building for ADIY Fly Basic board(without sd card or wifi)
+
