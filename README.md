@@ -157,5 +157,7 @@ https://datasheets.raspberrypi.com/pico/raspberry-pi-pico-python-sdk.pdf
 
 Page 4 (instructions will be improved when project works, if not, open issues or pull requests.)
 
+make now becomes 
 
+```make BOARD="<boardname>"
 
