@@ -190,8 +190,12 @@ Go into the right folder:
 
 ```cd ports/rp2```
 
-And the final bit of make tomfoolery:
+And the final bit of make tomfoolery(The board name is correct, do not change it.):
 
 ```make BOARD="ADAFRUIT_FEATHER_RP2040"```
 
-Your files will be in ~/pico/micropython/ports/rp2/
+Your files will be in ~/pico/micropython/ports/rp2/build-ADAFRUIT_FEATHER_RP2040/
+
+To check that all files are in order, 
+ ```ls -a ~/pico/micropython/ports/rp2/build-ADAFRUIT_FEATHER_RP2040/ | grep firmware```
+ You should see numerous entries. Download firmware.uf2 or whichever else needed. 
