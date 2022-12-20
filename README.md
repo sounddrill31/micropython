@@ -157,16 +157,6 @@ to ensure that all required submodules are initialised.
 
 # Building for ADIY Fly Basic board(without sd card or wifi)
 
-https://datasheets.raspberrypi.com/pico/raspberry-pi-pico-python-sdk.pdf
-
-Page 4 (instructions will be improved, if not, open issues or pull requests.)
-
-
-make now becomes 
-
-```make BOARD="ADAFRUIT_FEATHER_RP2040"```
-
-
 Run the following code in order, do not deviate unless you know what you are doing!
 
 Create a folder and enter it:
