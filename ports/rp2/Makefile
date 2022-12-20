@@ -2,8 +2,8 @@
 #
 # This is a simple wrapper around cmake
 
-#BOARD ?= PICO
-BOARD ?= ADIY_BASIC
+BOARD ?= PICO
+#BOARD ?= ADIY_BASIC
 
  
 BUILD ?= build-$(BOARD)
