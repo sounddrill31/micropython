@@ -165,6 +165,14 @@ make now becomes
 
 Run the following code in order, do not deviate unless you know what you are doing!
 
+```cd ~/```
+
+```mkdir pico```
+
+```cd pico```
+
+```git clone https://github.com/sounddrill31/micropython.git --branch master```
+
 ```sudo apt update```
 
 ```sudo apt install -y cmake gcc-arm-none-eabi libnewlib-arm-none-eabi build-essential```
