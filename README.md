@@ -149,5 +149,14 @@ to ensure that all required submodules are initialised.
 
 # How to use for ADIY Fly Basic board(without sd card or wifi)
 
+Download from releases and flash(WIP, will be improved if project works)
+
 # Building for ADIY Fly Basic board(without sd card or wifi)
+
+https://datasheets.raspberrypi.com/pico/raspberry-pi-pico-python-sdk.pdf
+
+Page 4 (instructions will be improved, if not, open issues or pull requests.)
+
+but the last make command is replaced by 
+``make BOARD=ADIY_BASIC```
 
