@@ -159,4 +159,4 @@ Page 4 (instructions will be improved when project works, if not, open issues or
 
 make now becomes 
 
-```make BOARD="ADIY_BASIC```
+```make BOARD="ADIY_BASIC"```
