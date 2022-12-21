@@ -206,7 +206,18 @@ To check that all files are in order,
  ```ls -a ~/pico/micropython/ports/rp2/build-ADAFRUIT_FEATHER_RP2040/ | grep firmware```
  You should see numerous entries. Download firmware.uf2 or whichever else needed. 
  
- ### Using github codespaces:
+ ### Using github codespaces(recommended):
+ 
+ 1. Open repo. https://github.com/sounddrill31/micropython
+ 
+ ![image](https://user-images.githubusercontent.com/84176052/208814121-2f76a83c-8155-4c98-a456-9841d17b7a66.png)
+ 
+ 2. Click on code option, head to codespaces tab, and click on create codespaces(delete other codespaces for this option to appear.):
+ 
+ ![image](https://user-images.githubusercontent.com/84176052/208814240-196c33c8-86d1-40c2-8738-faf6301cbbbc.png)
+![image](https://user-images.githubusercontent.com/84176052/208814248-ccece735-336b-4e59-b4fb-340d7e157d6b.png)
+![image](https://user-images.githubusercontent.com/84176052/208814252-00fc545c-a1f0-46b8-9950-583017aded34.png)
+
  
  Update packagelist(does not upgrade your system, just the list of latest packages):
 
