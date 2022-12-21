@@ -162,6 +162,7 @@ to ensure that all required submodules are initialised.
 
 # Building for ADIY Fly Basic board(without sd card or wifi)
 
+### Manually:
 Run the following code in order, do not deviate unless you know what you are doing!
 
 Create a folder and enter it:
@@ -204,3 +205,29 @@ Your files will be in ~/pico/micropython/ports/rp2/build-ADAFRUIT_FEATHER_RP2040
 To check that all files are in order, 
  ```ls -a ~/pico/micropython/ports/rp2/build-ADAFRUIT_FEATHER_RP2040/ | grep firmware```
  You should see numerous entries. Download firmware.uf2 or whichever else needed. 
+ 
+ ### Using github codespaces:
+ 
+ Update packagelist(does not upgrade your system, just the list of latest packages):
+
+```sudo apt update```
+
+Install essential tools:
+
+```sudo apt install -y cmake gcc-arm-none-eabi libnewlib-arm-none-eabi build-essential```
+
+Some make shenanigans:
+
+```make -C ports/rp2 submodules```
+
+```make -C mpy-cross```
+
+Go into the right folder:
+
+```cd ports/rp2```
+
+And the final bit of make tomfoolery(The board name is correct, do not change it.):
+
+```make BOARD="ADAFRUIT_FEATHER_RP2040"```
+
+Your files will be in ~/pico/micropython/ports/rp2/build-ADAFRUIT_FEATHER_RP2040/
