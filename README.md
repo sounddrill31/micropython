@@ -1,7 +1,12 @@
 [![CI badge](https://github.com/micropython/micropython/workflows/unix%20port/badge.svg)](https://github.com/micropython/micropython/actions?query=branch%3Amaster+event%3Apush) [![codecov](https://codecov.io/gh/micropython/micropython/branch/master/graph/badge.svg?token=I92PfD05sD)](https://codecov.io/gh/micropython/micropython)
 
-Scroll to bottom for instructions(WIP)
+Micropython
 =======================
+
+How to use: https://github.com/sounddrill31/micropython/#how-to-use-for-adiy-fly-basic-boardwithout-sd-card-or-wifi
+
+How to build it yourself: https://github.com/sounddrill31/micropython-adiy-fly-basic#building-for-adiy-fly-basic-boardwithout-sd-card-or-wifi
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/micropython/micropython/master/logo/upython-with-micro.jpg" alt="MicroPython Logo"/>
 </p>
