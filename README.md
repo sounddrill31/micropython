@@ -1,6 +1,8 @@
 [![CI badge](https://github.com/micropython/micropython/workflows/unix%20port/badge.svg)](https://github.com/micropython/micropython/actions?query=branch%3Amaster+event%3Apush) [![codecov](https://codecov.io/gh/micropython/micropython/branch/master/graph/badge.svg?token=I92PfD05sD)](https://codecov.io/gh/micropython/micropython)
 
-Warning: replaces Adafruit Feather Board
+### Warning: Do Not Use This If The Regular One Works.
+
+### Warning: replaces Adafruit Feather Board
 
 Micropython
 =======================
@@ -159,6 +161,7 @@ to ensure that all required submodules are initialised.
 1. Download from https://github.com/sounddrill31/micropython/releases/download/Stable/firmware.uf2
 2. Put the board in bootsel mode
 3. copy downloaded firmware.uf2 to the RPI-RP2 drive.
+4. This drive will automatically disappear and will show up in thonny interpreters section.
 
 
 
