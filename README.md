@@ -215,29 +215,33 @@ To check that all files are in order,
  2. Click on code option, head to codespaces tab, and click on create codespaces(delete other codespaces for this option to appear.):
  
  ![image](https://user-images.githubusercontent.com/84176052/208814240-196c33c8-86d1-40c2-8738-faf6301cbbbc.png)
-![image](https://user-images.githubusercontent.com/84176052/208814248-ccece735-336b-4e59-b4fb-340d7e157d6b.png)
-![image](https://user-images.githubusercontent.com/84176052/208814252-00fc545c-a1f0-46b8-9950-583017aded34.png)
+  ![image](https://user-images.githubusercontent.com/84176052/208814248-ccece735-336b-4e59-b4fb-340d7e157d6b.png)
+  
+ ![image](https://user-images.githubusercontent.com/84176052/208814252-00fc545c-a1f0-46b8-9950-583017aded34.png)
+3. After it is done, it should look like a standard vscode web interface with a terminal option. (If terminal does not appear, click on the three dots at top-left, go to terminal tab, and click on new terminal)
 
+![image](https://user-images.githubusercontent.com/84176052/208814463-1651c238-5ae1-448f-a4be-a3f478370c77.png)
+Now run the following commands in this new terminal. 
  
- Update packagelist(does not upgrade your system, just the list of latest packages):
+4. Update packagelist(does not upgrade your system, just the list of latest packages):
 
 ```sudo apt update```
 
-Install essential tools:
+5. Install essential tools:
 
 ```sudo apt install -y cmake gcc-arm-none-eabi libnewlib-arm-none-eabi build-essential```
 
-Some make shenanigans:
+6. Some make shenanigans:
 
 ```make -C ports/rp2 submodules```
 
 ```make -C mpy-cross```
 
-Go into the right folder:
+7. Go into the right folder:
 
 ```cd ports/rp2```
 
-And the final bit of make tomfoolery(The board name is correct, do not change it.):
+8. And the final bit of make tomfoolery(The board name is correct, do not change it.):
 
 ```make BOARD="ADAFRUIT_FEATHER_RP2040"```
 
