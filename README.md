@@ -223,6 +223,7 @@ To check that all files are in order,
   ![image](https://user-images.githubusercontent.com/84176052/208814248-ccece735-336b-4e59-b4fb-340d7e157d6b.png)
   
  ![image](https://user-images.githubusercontent.com/84176052/208814252-00fc545c-a1f0-46b8-9950-583017aded34.png)
+ 
 3. After it is done, it should look like a standard vscode web interface with a terminal option. (If terminal does not appear, click on the three dots at top-left, go to terminal tab, and click on new terminal)
 
 ![image](https://user-images.githubusercontent.com/84176052/208814463-1651c238-5ae1-448f-a4be-a3f478370c77.png)
