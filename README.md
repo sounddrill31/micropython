@@ -4,6 +4,7 @@
 
 ### Warning: replaces Adafruit Feather Board
 
+# This fork is deprecated since micropython fixed my board. If anyone has concerns, just open a dummy pull request and I will restart this project. 
 Micropython
 =======================
 
